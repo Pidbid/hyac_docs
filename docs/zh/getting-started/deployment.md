@@ -25,7 +25,8 @@ cp .env.example .env
 ## 3. 启动服务
 
 ```bash
-docker-compose up -d
+# 开发阶段
+docker-compose -f docker-compose.dev.yml up -d --build
 ```
 
 这将在后台启动所有必需的服务。

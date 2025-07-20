@@ -25,7 +25,8 @@ cp .env.example .env
 ## 3. Start the Services
 
 ```bash
-docker-compose up -d
+# Development Stage
+docker-compose -f docker-compose.dev.yml up -d --build
 ```
 
 This will start all the required services in the background.
