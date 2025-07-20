@@ -44,7 +44,11 @@ plugins:
               - '架构': 'introduction/architecture.md'
             - '快速开始':
               - '部署': 'getting-started/deployment.md'
-              - '你的第一个函数': 'getting-started/first-function.md'
+            - '函数介绍':
+              - '你的第一个函数': 'function-introduction/first-function.md'
+              - '常规函数': 'function-introduction/normal-function.md'
+              - '链接数据库': 'function-introduction/database-connection.md'
+              - '链接对象存储': 'function-introduction/minio-connection.md'
             - '用户指南':
               - '仪表盘': 'user-guide/dashboard.md'
               - '应用管理': 'user-guide/application-management.md'
@@ -71,7 +75,11 @@ plugins:
               - 'Architecture': 'introduction/architecture.md'
             - 'Getting Started':
               - 'Deployment': 'getting-started/deployment.md'
-              - 'Your First Function': 'getting-started/first-function.md'
+            - 'Function Introduction':
+              - 'Your First Function': 'function-introduction/first-function.md'
+              - 'Normal Function': 'function-introduction/normal-function.md'
+              - 'Database Connection': 'function-introduction/database-connection.md'
+              - 'MinIO Connection': 'function-introduction/minio-connection.md'
             - 'User Guide':
               - 'Dashboard': 'user-guide/dashboard.md'
               - 'Application Management': 'user-guide/application-management.md'
