@@ -11,6 +11,12 @@ Hyac is a private Python cloud function (FaaS) platform.
 - **Multi-tenancy and Isolation**: Native support for multi-application isolation, ensuring security and stability.
 - **Rich Admin Dashboard**: Provides an intuitive UI to manage applications, functions, databases, storage, and more.
 
+## Project Links
+
+-   **Demo Site**: [https://console.hyacos.top](https://console.hyacos.top)
+-   **Homepage**: [https://hyacos.top](https://hyacos.top)
+-   **GitHub**: [https://github.com/pidbid/hyac](https://github.com/pidbid/hyac)
+
 ## Quick Links
 
 - [Introduction](introduction/what-is-hyac.md)

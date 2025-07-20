@@ -11,6 +11,12 @@ Hyac 是一个私有的 Python 云函数 (FaaS) 平台。
 - **多应用隔离**: 天然支持多应用隔离，保证安全性和稳定性。
 - **丰富的管理后台**: 提供直观的 UI 来管理应用、函数、数据库、存储等。
 
+## 相关链接
+
+-   **体验地址**: [https://console.hyacos.top](https://console.hyacos.top)
+-   **项目主页**: [https://hyacos.top](https://hyacos.top)
+-   **GitHub**: [https://github.com/pidbid/hyac](https://github.com/pidbid/hyac)
+
 ## 快速链接
 
 - [介绍](introduction/what-is-hyac.md)
