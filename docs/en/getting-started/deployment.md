@@ -5,7 +5,7 @@ This guide will walk you through the process of deploying Hyac on your own serve
 ## Prerequisites
 
 - A server with Docker and Docker Compose installed.
-- A domain name (optional, but recommended for production use).
+- A domain name.
 
 ## 1. Clone the Repository
 
@@ -15,6 +15,8 @@ cd Hyac
 ```
 
 ## 2. Configure Environment Variables
+
+For more details on environment variables, please refer to the [Development Environment](/development/dev-environment) documentation.
 
 Copy the `.env.example` file to `.env`.
 
@@ -36,21 +38,13 @@ Then, open the `.env` file and make the following changes:
 ## 3. Start the Services
 
 ```bash
-# Development Stage
-docker-compose -f docker-compose.dev.yml up -d --build
+docker-compose up -d
 ```
 
 This will start all the required services in the background.
 
-## 4. Start the Frontend
+## 4. Access the System
 
-```bash
-cd web
-pnpm install
-pnpm dev
-```
+You can now access the Hyac console at:
 
-## 5. Access the System
-
-- Frontend: `http://localhost:5173`
-- Server API Docs: `http://localhost:8000/docs`
+- `https://console.your-domain.name`

@@ -16,6 +16,7 @@ Hyac 是一个私有的 Python 云函数 (FaaS) 平台。
 -   **体验地址**: [https://console.hyacos.top](https://console.hyacos.top)
 -   **项目主页**: [https://hyacos.top](https://hyacos.top)
 -   **GitHub**: [https://github.com/pidbid/hyac](https://github.com/pidbid/hyac)
+-   **作者博客**: [https://wicos.me](https://wicos.me)
 
 ## 快速链接
 

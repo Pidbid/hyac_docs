@@ -16,6 +16,7 @@ Hyac is a private Python cloud function (FaaS) platform.
 -   **Demo Site**: [https://console.hyacos.top](https://console.hyacos.top)
 -   **Homepage**: [https://hyacos.top](https://hyacos.top)
 -   **GitHub**: [https://github.com/pidbid/hyac](https://github.com/pidbid/hyac)
+-   **Author's Blog**: [https://wicos.me](https://wicos.me)
 
 ## Quick Links
 

@@ -5,7 +5,7 @@
 ## 先决条件
 
 - 一台安装了 Docker 和 Docker Compose 的服务器。
-- 一个域名（可选，但建议在生产环境中使用）。
+- 一个域名。
 
 ## 1. 克隆仓库
 
@@ -15,6 +15,8 @@ cd Hyac
 ```
 
 ## 2. 配置环境变量
+
+有关环境变量的更多详细信息，请参阅[开发环境](/development/dev-environment)文档。
 
 将 `.env.example` 文件复制为 `.env`。
 
@@ -36,21 +38,14 @@ cp .env.example .env
 ## 3. 启动服务
 
 ```bash
-# 开发阶段
-docker-compose -f docker-compose.dev.yml up -d --build
+docker-compose up -d
 ```
 
 这将在后台启动所有必需的服务。
 
-## 4. 启动前端
+## 4. 访问系统
 
-```bash
-cd web
-pnpm install
-pnpm dev
-```
+现在，您可以通过以下地址访问 Hyac 控制台：
 
-## 5. 访问系统
-
-- 前端: `http://localhost:5173`
-- 服务端 API 文档: `http://localhost:8000/docs`
+- `https://console.your-domain.name` 
+-- 如 官方测试地址为：`https://console.hyacos.top`
